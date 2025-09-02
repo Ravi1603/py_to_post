@@ -43,7 +43,7 @@ def create_table(conn):
         cur.execute(create_script)
         conn.commit()
         logging.info("Table ev_vehicles ensured.")
-
+#test
 def main():
     conn = None
     cur = None
